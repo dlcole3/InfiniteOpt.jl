@@ -4,7 +4,7 @@ Here we exemplify the use of `InfiniteOpt` via a few case studies:
 ## Two-Stage Stochastic Program
 First let's consider a standard two-stage stochastic program. Such problems
 consider 1st stage variables ``x \in X \subseteq \mathbb{R}^{n_x}`` which denote
-upfront (hear-and-now) decisions made before any realization of the random
+upfront (here-and-now) decisions made before any realization of the random
 parameters ``\xi \in \mathbb{R}^{n_\xi}`` is observed, and 2nd stage variables
 ``y(\xi) \in \mathbb{R}^{n_y}`` which denote recourse (wait-and-see) decisions
 that are made in response to realizations of ``\xi``. Moreover, the objective
